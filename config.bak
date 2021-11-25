@@ -1,0 +1,12 @@
+{
+	"clientId": "<bot client id>",
+	"guildId": "<guild id>",
+	"token": "<bot token>",
+
+	"host": "<db host>",
+	"dialect": "<db driver>",
+	"database": "<db name>",
+	"username": "<db username>",
+	"password": "<db password>",
+	"storage": "<sqlite file>"
+}

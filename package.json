@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Simple discord bot template",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "node src/bot.js",
+    "deploy": "pm2 start src/bot.js -i 4 --name template",
+    "reload": "pm2 reload template",
+    "kill": "pm2 stop template",
+    "clean": "pm2 stop template; pm2 delete template"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "template"
+  ],
+  "author": "Philip Venter",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "sequelize": "^6.12.0-alpha.1",
+    "sqlite3": "^5.0.2"
+  }
+}

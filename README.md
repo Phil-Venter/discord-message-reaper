@@ -1,8 +1,6 @@
-# discord.js v13 template
+# discord.js v13 message reaper
 
-This is a simple discord bot template, run `init.sh`, and set your details in `src/config.json` to get started.
-
-The idea behind this template is to seperate concerns as much as possible.
+This is a simple discord bot meant for semi private chats, messages will dissapear after x seconds if set up on a channel, run `init.sh`, and set your details in `src/config.json` to get started.
 
 Go wild have fun.
 
@@ -13,7 +11,6 @@ Go check out the below resources:
 
 ## Running/Commands
 
-- update `package.json` with the name of your project, curretly it is `template`
 - update `package.json` to match the amount of cores
 
 - `npm run test` => normal run, meant for testing purposes

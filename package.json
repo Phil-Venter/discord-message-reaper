@@ -1,19 +1,20 @@
 {
-  "name": "template",
+  "name": "messageReaper",
   "version": "1.0.0",
-  "description": "Simple discord bot template",
+  "description": "Simple discord bot messageReaper",
   "main": "src/bot.js",
   "scripts": {
     "test": "node src/bot.js",
-    "deploy": "pm2 start src/bot.js -i 4 --name template",
-    "reload": "pm2 reload template",
-    "kill": "pm2 stop template",
-    "clean": "pm2 stop template; pm2 delete template"
+    "deploy": "pm2 start src/bot.js -i 4 --name messageReaper",
+    "reload": "pm2 reload messageReaper",
+    "kill": "pm2 stop messageReaper",
+    "clean": "pm2 stop messageReaper; pm2 delete messageReaper"
   },
   "keywords": [
     "discord.js",
     "bot",
-    "template"
+    "message",
+    "reaper"
   ],
   "author": "Philip Venter",
   "dependencies": {

@@ -4,7 +4,7 @@
   "description": "Simple discord bot messageReaper",
   "main": "src/bot.js",
   "scripts": {
-    "test": "node src/bot.js",
+    "test": "nodemon src/bot.js",
     "deploy": "pm2 start src/bot.js -i 4 --name messageReaper",
     "reload": "pm2 reload messageReaper",
     "kill": "pm2 stop messageReaper",

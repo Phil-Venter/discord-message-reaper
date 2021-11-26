@@ -11,5 +11,5 @@ module.exports = (dir) => {
 				return path.resolve(fullPath);
 			}
 		})
-		.filter(_ => _);
+		.filter(file => file);
 };
